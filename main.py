@@ -5,8 +5,8 @@ import requests
 import telebot
 from telebot import types
 from telebot.types import ReplyKeyboardMarkup
+from secret_data import token
 
-token = '7338743074:AAFi9DWQH8Fj2nzZjeyG4RgmKpHACN3e_ls'
 bot = telebot.TeleBot(token)
 
 name = 'Капибара'
