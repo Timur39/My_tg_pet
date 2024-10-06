@@ -3,9 +3,9 @@ import time
 
 import requests
 import telebot
+from secret_data import token
 from telebot import types
 from telebot.types import ReplyKeyboardMarkup
-from secret_data import token
 
 bot = telebot.TeleBot(token)
 
